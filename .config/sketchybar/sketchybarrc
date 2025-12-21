@@ -17,7 +17,7 @@ ITEM_DIR="$CONFIG_DIR/items"
 # If you are looking for other colors, see the color picker:
 # https://felixkratz.github.io/SketchyBar/config/tricks#color-picker
 
-sketchybar --bar height=37        \
+sketchybar --bar height=45        \
                  blur_radius=30   \
                  position=top     \
                  sticky=off       \
@@ -30,13 +30,15 @@ sketchybar --bar height=37        \
 # For a full list of all available item properties see:
 # https://felixkratz.github.io/SketchyBar/config/items
 
-sketchybar --default icon.font="iMWriting Nerd Font:Semibold:15.0"  \
+sketchybar --default icon.font="iMWriting Nerd Font:Semibold:17.0"  \
                      icon.color=$WHITE                 \
-                     label.font="iMWriting Nerd Font:Semibold:15.0" \
+                     icon.y_offset=0                   \
+                     label.font="iMWriting Nerd Font:Semibold:17.0" \
                      label.color=$WHITE                \
+                     label.y_offset=0                  \
                      background.color=$ITEM_BG_COLOR       \
-                     background.corner_radius=5            \
-                     background.height=24                  \
+                     background.corner_radius=12            \
+                     background.height=30                  \
                      background.border_width=2.5           \
                      background.border_color=$WHITE         \
                      padding_left=5                        \
@@ -58,8 +60,31 @@ source $ITEM_DIR/media.sh
 source $ITEM_DIR/calendar.sh
 source $ITEM_DIR/volume.sh
 source $ITEM_DIR/battery.sh
+source $ITEM_DIR/ram.sh
 source $ITEM_DIR/cpu.sh
+source $ITEM_DIR/wifi.sh
 source $ITEM_DIR/input.sh
+source $ITEM_DIR/spotify.sh
+source $ITEM_DIR/user.sh
+
+##### Brackets #####
+# Tạo background đen mờ cho cụm bên trái
+sketchybar --add bracket left_group '/space\..*/' space_separator front_app \
+           --set left_group background.color=0x99000000 \
+                            background.corner_radius=15 \
+                            background.border_color=0x00000000 \
+                            background.height=42 \
+                            background.padding_left=80 \
+                            background.padding_right=80
+
+# Tạo background đen mờ cho cụm bên phải
+sketchybar --add bracket right_group spotify input wifi cpu ram battery volume calendar user \
+           --set right_group background.color=0x99000000 \
+                             background.corner_radius=15 \
+                             background.border_color=0x00000000 \
+                             background.height=42 \
+                             background.padding_left=80 \
+                             background.padding_right=80
 
 
 ##### Finalizing Setup #####
