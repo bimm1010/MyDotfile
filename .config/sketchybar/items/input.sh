@@ -2,10 +2,17 @@
 
 sketchybar --add item input right \
            --set input update_freq=2 \
-                       icon=kb \
-                       background.drawing=off \
-                       icon.color=$WHITE \
+                       display=1 \
+                       icon.drawing=off \
+                       background.drawing=on \
+                       background.color=0x00000000 \
+                       background.border_width=1.5 \
+                       background.border_color=$WHITE \
+                       background.corner_radius=4 \
+                       background.height=20 \
                        label.color=$WHITE \
-                       icon.padding_right=5 \
+                       label.font="iMWriting Nerd Font:Heavy:14.0" \
+                       label.padding_left=5 \
+                       label.padding_right=5 \
                        script="$PLUGIN_DIR/input.sh" \
                        padding_left=5 

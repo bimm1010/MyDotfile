@@ -1,7 +1,8 @@
 #!/bin/bash
 
 sketchybar --add item user right \
-           --set user  background.drawing=off \
+           --set user  display=1 \
+                       background.drawing=off \
                        icon="" \
                        icon.color=0xffc6a0f6 \
                        label.color=0xffc6a0f6 \

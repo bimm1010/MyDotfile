@@ -4,6 +4,7 @@ SPOTIFY_GREEN=0xff1db954
 
 sketchybar --add item spotify right \
            --set spotify \
+           display=1 \
            script="$PLUGIN_DIR/spotify.sh" \
            update_freq=2 \
            background.drawing=off \

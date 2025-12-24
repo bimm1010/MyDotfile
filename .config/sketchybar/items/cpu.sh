@@ -2,6 +2,7 @@
 
 sketchybar --add item cpu right \
            --set cpu  update_freq=2 \
+                      display=1 \
                       icon=􀧓  \
                       icon.font="iMWriting Nerd Font:Semibold:14.0" \
                       background.drawing=off \
