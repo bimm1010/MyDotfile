@@ -189,5 +189,4 @@ myDotFile/
 │   └── github-copilot/ # Copilot configuration
 └── ...
 ```
-
 ---
