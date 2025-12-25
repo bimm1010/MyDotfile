@@ -1,7 +1,7 @@
 #!/bin/bash
 
-sketchybar --add item calendar right \
-           --set calendar update_freq=30 \
+sketchybar --add item calendar center \
+           --set calendar update_freq=1 \
                           display=1 \
                           background.drawing=off \
                           label.color=$MAGENTA \
