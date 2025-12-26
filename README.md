@@ -1,6 +1,20 @@
 # myDotFile
 
+![macOS](https://img.shields.io/badge/os-macOS-000000?style=flat-square&logo=apple&logoColor=white)
+![Maintenance](https://img.shields.io/badge/maintenance-active-brightgreen?style=flat-square)
+![Shell](https://img.shields.io/badge/shell-zsh-4EAA25?style=flat-square&logo=zsh&logoColor=white)
+
 Welcome to my dotfiles collection! This folder contains configurations for my development environment on macOS (Darwin), including Terminal, Editor, and Window Management setups.
+
+## 🛠 Tech Stack
+
+![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
+![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
+![Zsh](https://img.shields.io/badge/zsh-%234EAA25.svg?style=for-the-badge&logo=zsh&logoColor=white)
+![Tmux](https://img.shields.io/badge/tmux-%231BB91F.svg?style=for-the-badge&logo=tmux&logoColor=white)
+![WezTerm](https://img.shields.io/badge/WezTerm-333333?style=for-the-badge&logo=wezterm&logoColor=white)
+![Yabai](https://img.shields.io/badge/Yabai-000000?style=for-the-badge&logo=apple&logoColor=white)
+![Raycast](https://img.shields.io/badge/Raycast-FF6363?style=for-the-badge&logo=raycast&logoColor=white)
 
 ## Table of Contents
 
