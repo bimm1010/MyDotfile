@@ -20,17 +20,12 @@
 
 ---
 
-## 📸 Gallery
+## 📸 Showcase
 
-> **Note:** Replace these links with actual screenshots of your setup to make it truly beautiful!
-
-| **Clean Desktop** | **Dirty Desktop** |
-|:---:|:---:|
-| <img src="https://placehold.co/600x400/212121/white?text=Wallpaper+Screenshot" width="400" /> | <img src="https://placehold.co/600x400/212121/white?text=Yabai+Tiling" width="400" /> |
-
-| **Neovim (LazyVim)** | **Tmux Session** |
-|:---:|:---:|
-| <img src="https://placehold.co/600x400/212121/white?text=Neovim+Coding" width="400" /> | <img src="https://placehold.co/600x400/212121/white?text=Tmux+Workflow" width="400" /> |
+<div align="center">
+  <img src="./Screenshot 2025-12-26 at 17.21.21.png" width="100%" style="border-radius: 10px;" />
+  <p><i>My current macOS development environment</i></p>
+</div>
 
 ---
 
