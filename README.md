@@ -12,6 +12,8 @@ Welcome to my dotfiles collection! This folder contains configurations for my de
   - [4. WezTerm](#4-wezterm)
   - [5. Window Management (Yabai & Skhd)](#5-window-management-yabai--skhd)
   - [6. Sketchybar](#6-sketchybar)
+  - [7. JankyBorders](#7-jankyborders)
+  - [8. Raycast](#8-raycast)
 - [Folder Structure](#folder-structure)
 
 ---
@@ -172,6 +174,40 @@ curl -L https://github.com/kvndrsslr/sketchybar-app-font/releases/download/v1.0.
 brew services start sketchybar
 ```
 
+### 7. JankyBorders
+
+A lightweight active window border system for macOS.
+
+**Installation:**
+```bash
+brew tap FelixKratz/formulae
+brew install borders
+```
+
+**Link Config:**
+```bash
+mkdir -p ~/.config/borders
+ln -s ~/Documents/myDotFile/.config/borders/bordersrc ~/.config/borders/bordersrc
+```
+
+**Start Service:**
+```bash
+brew services start borders
+```
+
+### 8. Raycast
+
+A blazingly fast, extensible launcher.
+
+**Installation:**
+```bash
+brew install --cask raycast
+```
+
+**Configuration:**
+*   **AI Prompts/Scripts:** Check the `.config/raycast` folder for any custom AI prompts or scripts.
+*   **General Setup:** Launch Raycast and configure it via its GUI preferences.
+
 ---
 
 ## Folder Structure
@@ -182,7 +218,9 @@ myDotFile/
 ├── .tmux.conf          # Tmux configuration
 ├── .wezterm.lua        # WezTerm configuration
 ├── .config/
+│   ├── borders/        # JankyBorders configuration
 │   ├── nvim/           # Neovim configuration (LazyVim)
+│   ├── raycast/        # Raycast data (AI prompts etc.)
 │   ├── yabai/          # Yabai Tiling WM configuration
 │   ├── skhd/           # Shortcuts for Yabai
 │   ├── sketchybar/     # Status bar configuration
