@@ -37,3 +37,8 @@ yabai -m rule --add app="^Alacritty$" space=^1
 
 
 # yabai -m config external_bar all:32:0
+# Window borders
+
+# Start borders
+killall borders
+borders width=8.0 active_color=0xff97ffff inactive_color=0x00000000 &

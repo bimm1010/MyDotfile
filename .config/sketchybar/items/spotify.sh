@@ -10,7 +10,7 @@ sketchybar --add item spotify right \
            background.drawing=off \
            icon.color=$SPOTIFY_GREEN \
            label.color=$SPOTIFY_GREEN \
-           icon.font="MesloLGS Nerd Font Mono:Bold:24.0" \
+           icon.font="JetBrainsMono Nerd Font:Bold:16.0" \
            icon.y_offset=1 \
            icon= \
            drawing=off \

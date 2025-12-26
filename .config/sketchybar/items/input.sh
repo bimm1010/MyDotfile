@@ -11,7 +11,8 @@ sketchybar --add item input right \
                        background.corner_radius=4 \
                        background.height=20 \
                        label.color=$WHITE \
-                       label.font="iMWriting Nerd Font:Heavy:14.0" \
+                       label.font="JetBrainsMono Nerd Font:Bold:16.0" \
+                       label.y_offset=0 \
                        label.padding_left=5 \
                        label.padding_right=5 \
                        script="$PLUGIN_DIR/input.sh" \

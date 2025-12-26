@@ -7,6 +7,6 @@ sketchybar --add item ram right \
            display=1 \
            background.drawing=off \
            icon.color=$ORANGE \
-           icon.font="iMWriting Nerd Font:Semibold:14.0" \
+           icon.font="JetBrainsMono Nerd Font:Bold:16.0" \
            label.color=$ORANGE \
            icon=􀫦
