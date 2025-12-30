@@ -52,6 +52,12 @@ keymap.set("n", "sk", "<C-w>k")
 keymap.set("n", "sj", "<C-w>j")
 keymap.set("n", "sl", "<C-w>l")
 
+-- Move window with Ctrl + Arrow keys
+keymap.set("n", "<C-Left>", "<C-w>h")
+keymap.set("n", "<C-Down>", "<C-w>j")
+keymap.set("n", "<C-Up>", "<C-w>k")
+keymap.set("n", "<C-Right>", "<C-w>l")
+
 -- Resize window
 keymap.set("n", "<C-w><left>", "<C-w><")
 keymap.set("n", "<C-w><right>", "<C-w>>")
