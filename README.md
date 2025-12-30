@@ -59,6 +59,25 @@
 
 ---
 
+## ⚙️ Zsh Configuration
+
+### 🔗 Aliases
+
+| Alias | Command | Description |
+| :--- | :--- | :--- |
+| `vim` | `nvim` | Use Neovim instead of Vim |
+| `t` | `eza --long --tree --icons --git --level=4` | Tree view with icons using Eza |
+| `goai` | `ollama run qwen2.5:14b` | Run AI model locally |
+| `goserver` | `ssh bimm@10.10.10.209` | SSH into server |
+| `clean` | `sudo npx mac-cleaner-cli` | Clean system trash |
+| `uninstall` | `sudo npx mac-cleaner-cli uninstall` | Uninstall apps |
+
+### 🌍 Environment Variables
+
+*   **OLLAMA_HOST**: `http://10.10.10.209:11434` (Remote AI Server)
+
+---
+
 ## 🚀 Installation
 
 <details>
@@ -139,7 +158,16 @@ brew services start borders
 </details>
 
 <details>
-<summary><strong>📊 6. Status Bar (Sketchybar)</strong></summary>
+<summary><strong>🛠 6. CLI Utilities</strong></summary>
+
+```bash
+brew install eza ollama
+```
+
+</details>
+
+<details>
+<summary><strong>📊 7. Status Bar (Sketchybar)</strong></summary>
 
 ```bash
 brew tap FelixKratz/formulae

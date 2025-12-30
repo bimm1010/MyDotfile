@@ -14,12 +14,13 @@ source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 #alias shortcut keyboard
-alias t="tree"
 alias vim="nvim"
 alias goserver="ssh bimm@10.10.10.209"
-alias clean="npx mac-cleaner-cli"
-alias uninstall="npx mac-cleaner-cli uninstall"
-
+alias clean="sudo npx mac-cleaner-cli"
+alias uninstall="sudo npx mac-cleaner-cli uninstall"
+alias structView="test"
+alias goai="ollama run qwen2.5:14b"
+alias t="eza --long --tree --icons --git --level=4"
 #add plugin to zshrc
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -32,3 +33,6 @@ if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
     # Thử attach vào session tên là "main". Nếu chưa có thì tạo mới.
     tmux attach -t main || tmux new -s main
 fi
+
+#--connect to ollama---
+export OLLAMA_HOST=http://10.10.10.209:11434
